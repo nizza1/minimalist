@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: monoton;
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+}
+
+.monoton {
+    font-family: monoton;
+}
+
+@font-face {
+    font-family: ubuntuR;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntuL;
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: ubuntuB;
+    src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+.ubuntoR {
+    font-family: ubuntuR;
+}
+
+.ubuntoL {
+    font-family: ubuntuL;
+}
+
+.ubuntoB {
+    font-family: ubuntuB;
+}
+
+/* =========================
+        fonts              
+=========================== */
+
+body {
+    max-width: 1400px;
+    background: rgb(5,5,5);
+    background: linear-gradient(90deg, rgba(5,5,5,1) 17%, rgba(106,106,106,1) 100%);
+
+}
+
+
+header {
+    display: flex;
+    width: 100vw;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.716);
+    padding: 0.2em;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    color: aliceblue;
+    font-size: 3.5em;
+    margin-left: 2vw;
+
+}
+
+.nav a {
+    color: rgba(240, 248, 255, 0.832);
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 1.3em;
+
+}
+
+
+.nav a:hover {
+    color: white;
+
+}
+
+
+
+
+
+section {
+    font-family: ubuntuR;
+    height: 90vh;
+    width: 90vw;
+    display: flex; 
+}
+
+.text {
+    width: 30%;
+    color: rgba(240, 248, 255, 0.811);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line {
+    margin-bottom: 0.3em;
+    margin-right: 1vw;
+    display: inline-block;
+    width: 22%;
+    border-bottom: 2px solid #DCA070;
+}
+
+.text p {
+    padding-left: 30%;
+    margin-bottom: 6em;
+    width: 100%;
+    color: #DCA070;
+}
+
+.text h1 {
+    margin-top: 2em;
+    width: 10ch;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.photos {
+    display: flex;
+    width: 70%;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcontainer {
+    width: 35%;
+}
+
+.photos img {
+    width: 100%;
+    border-radius: 0.4em;
+}
+
+.icons {
+    display:flex;
+}
+
+.icons img {
+    margin : 1.5em ;
+    width: 40px;
+    background-color: rgba(240, 248, 255, 0.835);
+    border-radius: 0.2em;
+    padding:10px;
+}
+
+.icons img:hover {
+    transform: translateY(-2px);
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
